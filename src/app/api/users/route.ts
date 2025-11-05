@@ -2,15 +2,15 @@ import {NextResponse} from "next/server";
 import fs from "fs/promises";
 import path from "path";
 
+function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 // Define the User type
 export interface User {
   id: string;
   fullName: string;
   email: string;
-}
-
-function delay(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Helper function to ensure users file exists and get its path
@@ -41,12 +41,9 @@ export async function GET() {
     const fileContent = await fs.readFile(filePath, "utf-8");
     const users: User[] = JSON.parse(fileContent);
 
-    await delay(3000);
+    await delay(1000);
 
-    // return NextResponse.json(
-    //   {error: "Forçando erro"},
-    //   {status: 500}
-    // );
+    // return NextResponse.json({error: "Forçando erro"}, {status: 500});
 
     return NextResponse.json(users);
   } catch (error) {

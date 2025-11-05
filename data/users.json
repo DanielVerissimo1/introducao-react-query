@@ -1,12 +1,12 @@
 [
   {
-    "id": "1f97f3f8-ccd0-4a02-ae58-b3804ac3b08c",
-    "fullName": "John Doe",
-    "email": "john@example.com"
-  },
-  {
-    "id": "a7bb5d80-a32e-40b3-bd2c-ff9ebdde2a86",
+    "id": "6d706113-d262-4403-9cdf-3bc475b981bf",
     "fullName": "Jane Doe",
     "email": "jane@example.com"
+  },
+  {
+    "id": "49eaef54-74b5-4f4b-acd3-4d7d2a4daffa",
+    "fullName": "John Doe",
+    "email": "john@example.com"
   }
 ]
