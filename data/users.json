@@ -3,10 +3,5 @@
     "id": "6d706113-d262-4403-9cdf-3bc475b981bf",
     "fullName": "Jane Doe",
     "email": "jane@example.com"
-  },
-  {
-    "id": "49eaef54-74b5-4f4b-acd3-4d7d2a4daffa",
-    "fullName": "John Doe",
-    "email": "john@example.com"
   }
 ]

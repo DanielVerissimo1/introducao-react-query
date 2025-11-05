@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Codegus React Query - Gerenciador de Usuários",
+  title: "Introdução ao React Query - Gerenciador de Usuários",
   description: "Demonstração do React Query com sistema de gerenciamento de usuários",
 };
 
