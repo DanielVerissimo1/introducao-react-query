@@ -1,6 +1,6 @@
-# Codegus React Query
+# React Query
 
-A demo application showcasing React Query capabilities with a simple user management system for my YouTube channel.
+A demo application showcasing React Query capabilities with a simple user management system
 
 ## Getting Started
 
